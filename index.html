@@ -3,16 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Шапка для сайта</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet"  href="reset.css" >
     <link rel="stylesheet"  href="stylecool.css">
 </head>
 <body>
  
 
-    <header>
-        <div class="container">
-                <div class="header__cont">
-                    <img src="./imgg/HotCoffee.svg" alt="">
+    <header >  
+      
+      
+      <div data-pushbar-id="mypushbar1" data-pushbar-direction="left">
+
+
+                   	<button data-pushbar-close>X</button>
+
+                     <div class="searchh">
+                      <img src="./imgg/Vector.svg" alt="">
+                      <p>search...</p> 
+                    </div>
+                       <div class="text_headert">
+                         <p>Home</p>
+                            <p>Articals</p>
+                    </div>
+                   <div class="foto_headere  ">
+                      <img src="./imgg/Vector(1).svg" alt="">
+                      <img src="./imgg/Vector(2).svg" alt="huftr">
+                      <img src="./imgg/Vector(3).svg" alt="">
+                   </div>
+                </div>
+
+                   </div>
+                
+
+        <div class="container animate__animated animate__zoomIn  ggg">
+                <div class="header__cont ">
+                 
+                
+                 
+              
+                  <div class="pushbar_main_content">              
+                    
+               
+
+                  	<button  class="btnn" data-pushbar-target="mypushbar1">  
+                          <img src="./imgg/HotCoffee.svg" alt="">
+                  	</button>
+                  </div>
+                      
+                  <img src="./imgg/HotCoffee.svg" alt="" class="hotcoffeimg">
                      <div class="search">
                         <img src="./imgg/Vector.svg" alt="">
                         <p>search...</p> 
@@ -21,13 +67,13 @@
                            <p>Home</p>
                               <p>Articals</p>
                       </div>
-                     <div class="foto_header">
+                     <div class="foto_header  ">
                         <img src="./imgg/Vector(1).svg" alt="">
                         <img src="./imgg/Vector(2).svg" alt="huftr">
                         <img src="./imgg/Vector(3).svg" alt="">
                      </div>
                   </div>
-                <div class="header__info">
+                <div class="header__info  ">
                     <h1 >Make better <br> coffee   <img src="./imgg/image6.svg" alt=""></h1>     
                     <p>why learn how to blog?</p>
                  <div class="header_imgg">
@@ -38,55 +84,72 @@
     </header>
 
 <main>
-           <div class="container">
-            <section class="news">
+           <div class="container ">
+            <section class="news animate__animated animate__zoomIn">
                <div class="main_foto">
                 <h2  class="jfg">long established</h2>
                   <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that....</p>
                     <p>May 20th 2020</p>
-                     <h2 class="trtrtr">Read more</h2>
+                    <h2 class="trtrtr">  <button   id="ert" class="btnn">Read more</button></h2>
                      <img src="./imgg/image1.svg" alt="">
                  </div>
             </section>
-            <section class="news_post">
+
+
+  <div class="swiper mySwiper animate__animated animate__fadeIn ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                </div>
+</div>
+          
+       
+            <section class="news_post animate__animated   animate__slideInUp">
                        <div  class=" firstb">
                         <img src="./imgg/image1.svg" alt="">
                         <h2 class="h11">long established</h2>
                         <p class="wp">It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that....</p>
                         <p class="pp">May 20th 2020</p>
-                        <h2 class="h2">Read more</h2>
+                      <h2 class="h2">  <button  id="ert" class="btnn"  onclick="myFng()">  Read more</button></h2>
                        </div>
                        <div class="secb">
                         <img src="./imgg/image1.svg" alt="">
                         <h2 class="h11">long established</h2>
                         <p class="wp">It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that....</p>
                         <p class="pp">May 20th 2020</p>
-                        <h2 class="h2" >Read more</h2>
+                        <h2 class="h2">  <button  id="ert" class="btnn"  onclick="myFng()" >  Read more</button></h2>
                        </div>
                        <div class=" thirb">
                         <img src="./imgg/image1.svg" alt="">
                         <h2 class="h11">long established</h2>
                         <p class="wp">It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that....</p>
                         <p class="pp">May 20th 2020</p>
-                        <h2 class="h2">Read more</h2>
+                        <h2 class="h2">  <button  id="ert" class="btnn"  onclick="buttoh()">  Read more</button></h2>
                        </div>
             </section>
-            <div class="bory">
+            <div class="bory  animate__animated   animate__slideInUp">
               
                         <h1 class="h1">What is Lorem <br> Ipsum?</h1>
                         <p class="kl">It is a long established fact that a reader will<br> be distracted  by the readable<br> content of a page when looking <br> at its layout. The point of <br> using Lorem Ipsum is that....</p>
                         <p class="po">May 20th 2020</p>
-                        <h2 class="h21">Read more</h2>
+                        <h2 class="h21">  <button id="ert"  class="btnnn" onclick="myFn()">  Read more</button></h2>
                           <img src="./imgg/image7.svg" alt=""   class="gr">
             </div >
-            <div class="imgh">
-           <a href=""> <img src="./imgg/under.svg" alt=" "></a>
+            <div class="imgh   animate__animated animate__fadeInRight">
+              <button id="ertt"  class="bt"  onclick="buttoh()">    <img src="./imgg/under.svg" alt=" "></button>
         </div>
       </div>
 </main>
-
+   
     <footer>
-<div class="container">
+<div class="container animate__animated animate__zoomIn ">
      <div class="ret">
         <div class="lkjhg">
            <img src="./imgg/HotCoffee.svg" alt="">
@@ -99,8 +162,29 @@
          </div>
     </div>
 </div>
-    </footer>
+
+    </footer> 
+    
+    <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  >
+  </div>
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="jsjsjsjs.js"> </script>
 </body>
 </html>
